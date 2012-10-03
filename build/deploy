@@ -1,0 +1,4 @@
+#/bin/sh
+rsync --verbose  --progress --stats --compress  \
+      --recursive --times --perms --links --delete \
+        src/* /home/andy/usr/basex/webapp/
